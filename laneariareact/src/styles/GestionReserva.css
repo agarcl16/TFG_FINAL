@@ -1,0 +1,60 @@
+/* Estilos para la lista de hoteles */
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7; /* Color de fondo */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .list-group-item:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Estilos para el contenido del hotel */
+  .list-item-content {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .list-item-content h4 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .list-item-content p {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para el botón de eliminar */
+  .delete-button {
+    background-color: #ff4444;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-button:hover {
+    background-color: #ff3333;
+  }
+  .hotel-image {
+    width: 100px; /* Ancho deseado de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+    border-radius: 5px; /* Borde redondeado opcional */
+    margin-left: 20px; /* Espacio entre la imagen y el contenido */
+  }
+
+  .separar {
+    margin-top: 10px;
+  }
+  

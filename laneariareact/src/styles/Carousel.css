@@ -1,0 +1,11 @@
+.image-container {
+    text-align: center;
+    width: 400px; /* Ancho deseado */
+    height: auto; /* Altura automática para mantener la proporción */
+    justify-content: center;
+  }
+  
+  .image-container img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Altura automática para mantener la proporción */
+  }

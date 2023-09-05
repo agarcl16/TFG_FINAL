@@ -1,0 +1,52 @@
+/* App.css */
+
+/* Estilos globales para el cuerpo de la aplicación */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+.app-header {
+  background-color: #1877f2; /* Color de fondo similar a Facebook */
+  color: white;
+  padding: 10px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  width: 50px; /* Tamaño del logo */
+  height: auto;
+  margin-right: 10px;
+}
+
+#title {
+  font-size: 24px; /* Tamaño del título */
+}
+
+.main-nav {
+  margin-top: 10px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el contenido principal */
+.app-content {
+  padding: 20px;
+}
+
+/* Estilos para el pie de página (Footer) */
+/* Puedes agregar estilos para el pie de página según tus preferencias */

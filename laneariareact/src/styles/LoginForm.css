@@ -1,0 +1,60 @@
+/* Estilos para el formulario */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Centro el texto y elementos internos */
+  }
+  
+  /* Estilos para las etiquetas de formulario */
+  form label {
+    font-weight: bold;
+    color: #1877f2; /* Azul similar al de Facebook */
+    font-size: 14px;
+  }
+  
+  /* Estilos para los campos de entrada de texto */
+  form input[type="text"],
+  form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    background-color: #f0f2f5;
+    font-size: 16px;
+    color: #1c1e21; /* Color de texto oscuro similar al de Facebook */
+  }
+  
+  /* Estilos para los textos debajo de los campos de entrada */
+  form .text-muted {
+    font-size: 12px;
+    color: #8e8e8e; /* Color de texto gris similar al de Facebook */
+  }
+  
+  /* Estilos para el checkbox */
+  form input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  /* Estilos para el botón de envío */
+  form button[type="submit"] {
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Estilos para el botón de envío al pasar el cursor por encima */
+  form button[type="submit"]:hover {
+    background-color: #0e63b0; /* Azul más oscuro al pasar el cursor */
+  }
+  

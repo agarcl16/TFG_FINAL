@@ -1,0 +1,37 @@
+#centro{
+    text-align: center;
+}
+#vuelta{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#boton{
+    background-color: #1877f2;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#texto{
+    font-weight: bold;
+    color: #1877f2;
+    font-size: 14px;
+}
+.link-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border: none; /* Quita el borde del botón */
+    border-radius: 5px; /* Agrega bordes redondeados al botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Efecto de transición al pasar el ratón */
+  }
+  
+  .link-button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar el ratón */
+  }
